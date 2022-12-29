@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": " concurrently \"npm install && npm start\" \"cd frontend && npm install && npm run build\"",
+    "start": "concurrently \"node server.js\" \"cd frontend && npm install && npm run build\"",
+    "dev": "npm install &7 npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
